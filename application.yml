@@ -12,3 +12,6 @@ eureka:
 application:
   global:
     version: v1
+
+environment:
+  APPLICATION_VERSION: ${application.global.version}
